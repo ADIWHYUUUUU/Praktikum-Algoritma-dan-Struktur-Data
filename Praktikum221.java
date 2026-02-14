@@ -86,6 +86,14 @@ public class Praktikum221 {
         System.out.println("==============================");
        System.out.println("==============================");
 
+       if (nilaiHuruf=="A" || nilaiHuruf=="B+" || nilaiHuruf== "B" || nilaiHuruf=="C+" || nilaiHuruf=="C"  ) {
+
+        System.out.println("SELAMAT ANDA LULUS");
+       } else if (nilaiHuruf=="D" || nilaiHuruf=="E") {
+        System.out.println("MOHON MAAF ANDA TIDAK LULUS");
+        
+       }
+
 
 
 
