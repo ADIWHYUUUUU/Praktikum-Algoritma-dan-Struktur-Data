@@ -1,3 +1,4 @@
+package Minggu1;
 public class Praktikum251 {
      public static int hitungPendapatan(int aglonema, int keladi, int alocasia, int mawar) {
         int hargaAglonema = 75000;

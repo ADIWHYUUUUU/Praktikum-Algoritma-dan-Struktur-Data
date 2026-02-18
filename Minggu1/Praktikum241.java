@@ -1,3 +1,4 @@
+package Minggu1;
 import java.util.Scanner;
 
 public class Praktikum241 {
