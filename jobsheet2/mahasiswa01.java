@@ -1,4 +1,4 @@
-package Minggu1.jobsheet2;
+package jobsheet2;
 
 public class mahasiswa01 {
     String nama;
