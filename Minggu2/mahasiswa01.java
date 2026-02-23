@@ -13,11 +13,6 @@ public class mahasiswa01 {
         kelas=kls;
 
     }
-
-    
-
-
-
     String nama;
     String nim;
     String kelas;

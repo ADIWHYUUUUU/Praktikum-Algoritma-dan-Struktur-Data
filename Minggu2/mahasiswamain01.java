@@ -19,5 +19,6 @@ mhs1.tampilkanInformasi();
 mahasiswa01 mhs2=new mahasiswa01("Annisa Nabila","2141720160",3.25,"TI 2L");
 mhs2.updateIpk(3.30);
 mhs2.tampilkanInformasi();
+mahasiswa01 mhsAdi = new mahasiswa01("Adi Wahyudi", "2241720005", 3.85, "TI 1A");
     }
 }
