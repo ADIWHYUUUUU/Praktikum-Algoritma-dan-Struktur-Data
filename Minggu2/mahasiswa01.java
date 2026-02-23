@@ -1,6 +1,23 @@
 package Minggu2;
 
 public class mahasiswa01 {
+
+    public  mahasiswa01(){
+
+    }
+
+    public mahasiswa01(String nm,String nim,double ipk,String kls){
+        nama = nm;
+        this.nim = nim;
+        this.ipk=ipk;
+        kelas=kls;
+
+    }
+
+    
+
+
+
     String nama;
     String nim;
     String kelas;
