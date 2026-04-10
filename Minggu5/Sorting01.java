@@ -4,7 +4,7 @@ public class Sorting01 {
     int[] data;
     int jumData;
 
-    // Konstruktor
+  
     Sorting01(int Data[], int jmlDat) {
         jumData = jmlDat;
         data = new int[jmlDat];
@@ -13,7 +13,7 @@ public class Sorting01 {
         }
     }
 
-    // Bubble Sort
+   
     void bubbleSort() {
         int temp = 0;
         for (int i = 0; i < jumData - 1; i++) {
@@ -27,7 +27,7 @@ public class Sorting01 {
         }
     }
 
-    // Tampilkan data
+    
     void tampil() {
         for (int i = 0; i < jumData; i++) {
             System.out.print(data[i] + " ");
@@ -60,7 +60,7 @@ public class Sorting01 {
             }
         }
 
-        // swap
+       
         int temp = data[i];
         data[i] = data[minIndex];
         data[minIndex] = temp;
