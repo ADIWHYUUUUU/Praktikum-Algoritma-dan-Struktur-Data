@@ -22,7 +22,7 @@ public class Main {
             System.out.println("0. Keluar");
             System.out.print("Pilih menu : "); 
             pilihan = in.nextInt();
-            in.nextLine(); // Pembersih buffer scanner
+            in.nextLine();
 
             switch (pilihan) {
                 case 1:
