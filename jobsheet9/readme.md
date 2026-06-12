@@ -14,7 +14,7 @@ Perbaikan dilakukan pada class `StackTugasMahasiswa01`, tepatnya di dalam method
 * **Masalah:** Kode awal bawaan jobsheet menggunakan perulangan urut maju (`0` ke `top`). Hal ini membuat daftar tugas dicetak dari tumpukan paling bawah (yang pertama kali dikumpulkan).
 * **Perbaikan:** Karena Stack menganut prinsip **LIFO (Last In First Out)**, proses cetak harus dibalik dari indeks paling atas (`top`) mundur ke paling bawah (`0`) agar sesuai dengan tampilan verifikasi di modul.
 
-```java
+
 public void print() {
     // Diubah menjadi perulangan mundur dari top ke 0
     for (int i = top; i >= 0; i--) {
