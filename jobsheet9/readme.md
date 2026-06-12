@@ -56,4 +56,3 @@ Method ini mengubah nilai desimal menjadi bentuk biner dengan memanfaatkan karak
 
 **Alasannya:** Nilai tugas mahasiswa selalu berupa bilangan bulat positif. Bilangan bulat positif yang dibagi 2 terus-menerus nilainya akan mengecil hingga habis menjadi 0. Titik berhentinya perulangan antara kondisi `nilai > 0` dan `nilai != 0` adalah persis sama, yaitu saat nilai variabel menyentuh angka tepat 0.
 
-**Catatan Tambahan:** Perbedaan baru akan terlihat jika method menerima input bilangan negatif, di mana kondisi `!= 0` akan memicu perulangan tanpa akhir (*infinite loop*), sedangkan `> 0` langsung menghentikan program.
