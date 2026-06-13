@@ -11,24 +11,33 @@ public class SLLMain01 {
         Mahasiswa01 mhs3 = new Mahasiswa01("22212202", "Cintia", "3C", 3.5);
         Mahasiswa01 mhs4 = new Mahasiswa01("23212201", "Bimon", "2B", 3.8);
 
-        // 1. Cetak awal saat list masih kosong
+       
+        sll.print(); // Cetak awal saat list masih kosong
+
+        sll.addFirst(mhs4); // Tambah Bimon di awal list
         sll.print();
 
-        // 2. Tambah mhs1 (Dirga) sebagai data pertama
-        sll.addFirst(mhs1);
+        sll.addLast(mhs1); // Tambah Dirga di akhir list
         sll.print();
 
-        // 3. Tambah mhs2 (Alvaro) di akhir list
-        sll.addLast(mhs2);
-        sll.print();
-
-        // 4. Sisipkan mhs3 (Cintia) setelah mhs bernama "Dirga"
-        sll.insertAfter("Dirga", mhs3);
+        sll.insertAfter("Dirga", mhs3); // Sisipkan Cintia setelah Dirga
         
-        // 5. Sisipkan mhs4 (Bimon) pada indeks ke-2
-        sll.insertAt(2, mhs4);
-        
-        // Cetak hasil akhir penambahan data
+        sll.insertAt(2, mhs2); // Sisipkan Alvaro pada indeks ke-2
+        sll.print();
+
+        // ==================== PERCOBAAN 2: AKSES & HAPUS DATA ====================
+        System.out.println("data index 1: ");
+        sll.getData(1); // Mengambil data pada indeks ke-1
+
+        System.out.println("data mahasiswa an Bimon berada pada index: " + sll.indexOf("Bimon"));
+        System.out.println();
+
+        System.out.println("--- Proses Penghapusan Elemen ---");
+        sll.removeFirst(); // Menghapus data pertama
+        sll.removeLast();  // Menghapus data terakhir
+        sll.print();
+
+        sll.removeAt(0);   // Menghapus data pada indeks ke-0 setelah modifikasi
         sll.print();
     }
 }
