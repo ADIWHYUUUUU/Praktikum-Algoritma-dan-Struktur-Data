@@ -1,11 +1,10 @@
-
 package Pjobsheet11;
 
 public class Mahasiswa01 {
-    String nim;
-    String nama;
-    String kelas;
-    double ipk;
+    public String nim;
+    public String nama; // Pastikan ini String
+    public String kelas;
+    public double ipk;
 
     public Mahasiswa01() {
     }
